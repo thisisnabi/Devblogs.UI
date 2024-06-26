@@ -1,0 +1,103 @@
+﻿@font-face {
+	font-family: Dana;
+	font-style: normal;
+	font-weight: 100;
+	src: url('../fonts/eot/Dana-Thin.eot');
+	src: url('../fonts/eot/Dana-Thin.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/woff2/Dana-Thin.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../fonts/woff/Dana-Thin.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../fonts/ttf/Dana-Thin.ttf') format('truetype');
+}
+@font-face {
+	font-family: Dana;
+	font-style: normal;
+	font-weight: 200;
+	src: url('../fonts/eot/Dana-ExtraLight.eot');
+	src: url('../fonts/eot/Dana-ExtraLight.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/woff2/Dana-ExtraLight.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../fonts/woff/Dana-ExtraLight.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../fonts/ttf/Dana-ExtraLight.ttf') format('truetype');
+}
+@font-face {
+	font-family: Dana;
+	font-style: normal;
+	font-weight: 300;
+	src: url('../fonts/eot/Dana-Light.eot');
+	src: url('../fonts/eot/Dana-Light.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/woff2/Dana-Light.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../fonts/woff/Dana-Light.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../fonts/ttf/Dana-Light.ttf') format('truetype');
+}
+@font-face {
+	font-family: Dana;
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/eot/Dana-Regular.eot');
+	src: url('../fonts/eot/Dana-Regular.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/woff2/Dana-Regular.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../fonts/woff/Dana-Regular.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../fonts/ttf/Dana-Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: Dana;
+	font-style: normal;
+	font-weight: 500;
+	src: url('../fonts/eot/Dana-Medium.eot');
+	src: url('../fonts/eot/Dana-Medium.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/woff2/Dana-Medium.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../fonts/woff/Dana-Medium.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../fonts/ttf/Dana-Medium.ttf') format('truetype');
+}
+@font-face {
+	font-family: Dana;
+	font-style: normal;
+	font-weight: 600;
+	src: url('../fonts/eot/Dana-DemiBold.eot');
+	src: url('../fonts/eot/Dana-DemiBold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/woff2/Dana-DemiBold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../fonts/woff/Dana-DemiBold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../fonts/ttf/Dana-DemiBold.ttf') format('truetype');
+}
+@font-face {
+	font-family: Dana;
+	font-style: normal;
+	font-weight: 700;
+	src: url('../fonts/eot/Dana-Bold.eot');
+	src: url('../fonts/eot/Dana-Bold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/woff2/Dana-Bold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../fonts/woff/Dana-Bold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../fonts/ttf/Dana-Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: Dana;
+	font-style: normal;
+	font-weight: 800;
+	src: url('../fonts/eot/Dana-UltraBold.eot');
+	src: url('../fonts/eot/Dana-UltraBold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/woff2/Dana-UltraBold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../fonts/woff/Dana-UltraBold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../fonts/ttf/Dana-UltraBold.ttf') format('truetype');
+}
+@font-face {
+	font-family: Dana;
+	font-style: normal;
+	font-weight: 900;
+	src: url('../fonts/eot/Dana-Black.eot');
+	src: url('../fonts/eot/Dana-Black.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/woff2/Dana-Black.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../fonts/woff/Dana-Black.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../fonts/ttf/Dana-Black.ttf') format('truetype');
+}
+@font-face {
+	font-family: Dana;
+	font-style: normal;
+	font-weight: bold;
+	src: url('../fonts/eot/Dana-ExtraBold.eot');
+	src: url('../fonts/eot/Dana-ExtraBold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/woff2/Dana-ExtraBold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../fonts/woff/Dana-ExtraBold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../fonts/ttf/Dana-ExtraBold.ttf') format('truetype');
+}
+
+
+

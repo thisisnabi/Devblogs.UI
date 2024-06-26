@@ -1,0 +1,202 @@
+@import "./fontiran.css";
+
+*:not(i){
+  font-family: Dana , "Dana";
+  color: $text-color;
+}
+html::-webkit-scrollbar{
+  width: 9px;
+  background: $dark-100;
+}
+html::-webkit-scrollbar-thumb{
+  background: $dark-200;
+}
+html , body{
+  direction: rtl;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  min-height: 100vh;
+  width: 100%;
+}
+body{
+  text-align: right;
+  overflow-x: hidden;
+  background: $secondary-color;
+}
+a , a:hover{
+  cursor: pointer;
+  color: $text-color !important;
+  text-decoration: none;
+}
+.disable-select{
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
+     supported by Chrome and Opera */
+}
+input , select{
+  text-indent: 0;
+}
+.input-form{
+  background: $bg-color;
+  padding: 6px 7px;
+  border: 2px solid $dark-20;
+  transition: .3s;
+  border-radius: 7px;
+  color: $text-color;
+}
+.input-form:focus{
+  border: 2px solid $light-100;
+  outline: 0;
+}
+label{
+  font-weight: 500;
+}
+select{
+  cursor: pointer;
+}
+select:disabled{
+  cursor: wait !important;
+}
+.font-thin{
+  font-weight: 100;
+}
+.font-lLight{
+  font-weight: 200;
+}
+.font-light{
+  font-weight: 300;
+}
+.font-reg{
+  font-weight: 400;
+}
+.font-med{
+  font-weight: 500;
+}
+.font-demi{
+  font-weight: 600;
+}
+.font-bold{
+  font-weight: 700;
+}
+.font-uBlod{
+  font-weight: 800;
+}
+.font-black{
+  font-weight: 900;
+}
+.font-eBold{
+  font-weight: bold;
+}
+
+.img-to-white{
+  filter: invert(1111) grayscale(1111) brightness(111);
+}
+
+.h1-size{
+  font-size: $h1-size;
+}
+.h2-size{
+  font-size: $h2-size;
+}
+.h3-size{
+  font-size: $h3-size;
+}
+.h4-size{
+  font-size: $h4-size;
+}
+.h5-size{
+  font-size: $h5-size;
+}
+.h6-size{
+  font-size: $h6-size;
+}
+.p-size{
+  font-size: $p-size;
+}
+.p-size-big{
+  font-size: $p-size-big;
+}
+.p-size-small{
+  font-size: $p-size-small;
+}
+
+.gap-0{
+  gap: 0;
+}
+.gap-1{
+  gap: 0.25rem;
+}
+.gap-2{
+  gap: 0.5rem;
+}
+.gap-3{
+  gap: 1rem;
+}
+.gap-4{
+  gap: 1.5rem;
+}
+.gap-5{
+  gap: 2rem;
+}
+.gap-6{
+  gap: 2.5rem;
+}
+.gap-7{
+  gap: 3rem;
+}
+.gap-8{
+  gap: 3.5rem;
+}
+.gap-9{
+  gap: 4rem;
+}
+.gap-10{
+  gap: 4.5rem;
+}
+
+.opacity-1{
+  opacity: 1;
+}
+.opacity-900{
+  opacity: .9;
+}
+.opacity-800{
+  opacity: .8;
+}
+.opacity-700{
+  opacity: .7;
+}
+.opacity-600{
+  opacity: .6;
+}
+.opacity-500{
+  opacity: .5;
+}
+.opacity-400{
+  opacity: .4;
+}
+.opacity-300{
+  opacity: .3;
+}
+.opacity-200{
+  opacity: .2;
+}
+.opacity-100{
+  opacity: .1;
+}
+
+.input-form{
+  background: $bg-color;
+  color: $text-color;
+  font-size: $h5-size;
+  padding: 14px 18px;
+  border-radius: 12px;
+}
